@@ -1,0 +1,15 @@
+Puzzle Answers
+
+Admin page login, input to see blog drafts - Username: katieventura. Password: LyfeIsG00d. Found hidden at bottom of main page.
+
+Password for Tumblr - C0ll3g3-g@l. Found by decoding the caesar cipher message. Tumblr is linked in the picture on the pictures page captioned "Hey Jess! Look at us! Also I learned how to link stuff to photos today!"
+
+Katie's Student ID, input to get into mail inbox - 16388463. Found in math problems; One in a blog post, Two on the secret code page, Three in blog drafts, Four on tumblr.
+
+Residence Hall Name, input into residence hall directory site - Halstead. Hidden in the caption of one of the photos.
+
+Mail room login information - last name: Ventura. Student ID (same as above): 16388463. 
+
+Daniel's Website login - ComputerWhiz2000. Found in his poem.
+
+Final Latitude and Longitude, input on Teague County website - 42.008902, -74.476440. Decoded from binary on Daniel's website.

@@ -1,0 +1,195 @@
+/* Apply a natural box layout model to all elements */
+*, *:before, *:after {
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+/* Page Settings */
+html {
+	height:100%;
+	width:100%;
+}
+
+body {
+	height:100%;
+	width:100%;
+	padding:0;
+	margin:0;
+	background-color:#212121;
+	font-family:"Times New Roman", sans-serif;
+	font-size:16px;
+	color: #ffffff;
+}
+
+.page {
+	width:100%;
+	height:100%;
+	padding:0px 0px 0px 50px;
+	margin:auto;
+	text-align:center;
+}
+
+img {
+	display:inline;
+}
+a img {
+	border-style:none;
+}
+
+/* Site Header */
+header {
+	display:block;
+	padding:0px;
+	margin:10px auto 15px auto;
+	width:700px;
+	text-align:center;
+	font-family: "Times New Roman", sans-serif;
+}
+header a {
+	text-decoration:none;
+	display:table;
+	margin:0px;
+	padding:0px;
+	width:100%;
+	height:100px;
+}
+header h1 {
+	display:table-cell;
+	vertical-align:middle;
+	color:#ffffff;
+	font-size:40px;
+	margin:0px;
+	padding:0px;
+}
+
+/* Main section of page, under logo and above footer */
+.main {
+	width:800px;
+	max-width:800px;
+	overflow:hidden;
+	padding:0;
+	margin:auto;
+}
+
+/* Main Content Box */
+.content {
+	margin:0px auto;
+	padding:0px;
+	width:780px;
+}
+
+.roster {
+	margin:0px 0px 20px 0px;
+}
+article {
+	/* nil */
+}
+article p {
+	margin:10px 0px 12px 0px;
+}
+article p:last-child {
+	margin-bottom:10px;
+}
+article ul, article ol {
+	width:80%;
+	margin:0px auto 12px auto;
+	text-align:left;
+	font-size:14px;
+}
+article ul ul, article ul ol, article ol ul, article ol ol {
+	width:100%;
+}
+
+.message {
+	background-color: #1e5262;
+	padding: 10px;
+	border-top:4px solid #ffffff;
+	border-left:4px solid #ffffff;
+	border-right:4px solid #ffffff;
+	border-bottom:4px solid #ffffff;
+	color: #ffffff;
+	text-align: left;
+}
+
+.message a {
+	color: #fff;
+}
+
+/* Homepage Post Specific */
+.post {
+	margin:30px auto 10px auto;
+	padding:0px;
+	display:table;
+	width:90%;
+	position:relative;
+	border-top:2px solid #1e5262;
+	border-bottom:2px solid #1e5262;
+}
+.post:before {
+	content:"";
+	display:block;
+	position:absolute;
+	width:100%;
+	height:70px;
+	top:-45px;
+}
+
+.post h1 {
+	color:#1e5262;
+	font-size:48px;
+	margin:10px 0px 6px;
+}
+.post .date {
+	margin:0px 0px 10px 0px;
+	font-size:12px;
+}
+
+/* Table Formatting */
+table {
+	border-collapse:separate;
+	border-spacing:2px;
+	border-top:1px solid #1e5262;
+	border-left:1px solid #1e5262;
+	border-right:1px solid #1e5262;
+	border-bottom:1px solid #1e5262;
+	background-color:#30839d;
+	margin:auto;
+	padding:0px;
+	width:90%;
+}
+td {
+	border-top:1px solid #1e5262;
+	border-left:1px solid #1e5262;
+	border-right:1px solid #1e5262;
+	border-bottom:1px solid #1e5262;
+	background-color:#cae6ef;
+	text-align:center;
+	font-size:14px;
+	padding:5px;
+	vertical-align:top;
+}
+th {
+	border-top:1px solid #1e5262;
+	border-left:1px solid #1e5262;
+	border-right:1px solid #1e5262;
+	border-bottom:1px solid #1e5262;
+	background-color:#30839d;
+	color:#ffffff;
+	text-align:center;
+	font-size:14px;
+	font-weight:bold;
+	padding:2px;
+	vertical-align:top;
+}
+
+/* Generic Positioning Classes */
+.right {
+	float:right;
+}
+.left {
+	float:left;
+}
+.center {
+	text-align:center;
+}

@@ -1,0 +1,22 @@
+/* Page Settings */
+html {
+	height:100%;
+	width:100%;
+}
+
+body {
+	height:100%;
+	width:100%;
+	padding:0;
+	margin:100px 60px 0px 20px;
+	background-color:#000000;
+	font-family:"Helvetica", sans-serif;
+	font-size:16px;
+	text-align: center;
+	color: #ffffff;
+}
+
+body a {
+	color: #ffffff;
+}
+

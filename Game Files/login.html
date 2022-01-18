@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Katie's Super Cool Site!</title>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" type="text/css" href="katie.css">
+	<script defer src="login-page.js"></script>
+</head>
+<body>
+<div class="page">
+
+	<header>
+		<a href="main.html"><h1>Katie's Super Cool Site!</h1></a>
+		<h2>Login!</h2>
+	</header>
+
+	<div class="main">
+		<nav>
+			<script type="text/javascript" src="js-nav.js"></script>
+		</nav>
+
+    	<div id="login-error-msg-holder">
+      		<p id="login-error-msg" style="color:#E10600">INVALID USERNAME <span id="error-msg-second-line">AND/OR PASSWORD</span></p>
+    	</div>
+    
+    	<form id="login-form">
+      		<input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
+      		<input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+      		<input type="submit" value="Login" id="login-form-submit">
+    	</form>
+	</div>
+
+	<footer>
+		<script type="text/javascript" src="js-footer.js"></script>
+	</footer>
+	
+</div>
+</body>
+</html>
